@@ -1,0 +1,147 @@
+{
+  "posts": [
+    {
+      "id": "2bf2",
+      "name": "jaimalahar",
+      "address": "EFEWFWEF",
+      "email": "jaimalahar@5454gmail.com",
+      "services": "CHAI,coffe",
+      "mobile": 35165464
+    },
+    {
+      "id": "6975",
+      "name": "jaimalahar",
+      "address": "sadvdsvsd",
+      "email": "svdsvs",
+      "services": "sdasdc",
+      "mobile": 54561651
+    },
+    {
+      "id": "4f90",
+      "name": "Adrasha",
+      "address": "Kannad ",
+      "email": "Adrasha@122gmail.com",
+      "services": "All Veg Menu",
+      "mobile": 823184989
+    },
+    {
+      "id": "1dce",
+      "name": "balajihotel",
+      "address": "kannad",
+      "email": "balajihotel@236gmail.com",
+      "services": "thali",
+      "mobile": 155632556
+    },
+    {
+      "id": "478a",
+      "name": "Bairagi",
+      "address": ",Hiwarkheda Road,,Kannad,431103",
+      "email": "Bairagi@gmail.com",
+      "services": "Thali",
+      "mobile": 7517907798
+    }
+  ],
+  "Menu": [
+    {
+      "id": "f26f",
+      "name": "jaimalahar",
+      "dishname": "Bata Veg",
+      "price": 300
+    },
+    {
+      "id": "987a",
+      "name": "jaimalahar",
+      "dishname": "bhendi fry",
+      "price": 352
+    },
+    {
+      "id": "46b0",
+      "name": "Adrasha",
+      "dishname": "Veg Mix bhaji",
+      "price": 500
+    },
+    {
+      "id": "a19c",
+      "name": "Adrasha",
+      "dishname": "sheva bhaji",
+      "price": 200
+    },
+    {
+      "id": "3f99",
+      "name": "jaimalahar",
+      "dishname": "tomato soup",
+      "price": 100
+    },
+    {
+      "id": "9359",
+      "name": "jaimalahar",
+      "dishname": "paneera kadai",
+      "price": 240
+    },
+    {
+      "id": "3310",
+      "name": "jaimalahar",
+      "dishname": "aloo paratha",
+      "price": 50
+    },
+    {
+      "id": "cd67",
+      "name": "Adrasha",
+      "dishname": "noodels",
+      "price": 100
+    },
+    {
+      "id": "536f",
+      "name": "balajihotel",
+      "dishname": "veg thali",
+      "price": 250
+    },
+    {
+      "id": "a4f8",
+      "name": "Bairagi",
+      "dishname": "Pav Bhaji",
+      "price": 500
+    }
+  ],
+  "signup": [
+    {
+      "name": "Taj",
+      "email": "TajManagement@gmail.com",
+      "mobile": 999999999,
+      "password": "password@123",
+      "id": "1"
+    },
+    {
+      "name": "Admin",
+      "email": "Marvellous@gmail.com",
+      "mobile": 3164631649,
+      "password": "Admin@123",
+      "id": "2"
+    },
+    {
+      "id": "e22b",
+      "name": "",
+      "email": "",
+      "mobile": 0,
+      "password": "khgyugiu"
+    },
+    {
+      "id": "2852",
+      "name": "xfngfn",
+      "email": "xfgnf",
+      "mobile": 1015021,
+      "password": "xgngfxnxg"
+    },
+    {
+      "id": "a84d",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": ""
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

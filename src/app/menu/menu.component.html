@@ -1,0 +1,75 @@
+
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+      <h2 class="slider">Marvellous Restaurent Record App</h2>
+      <div class="d-flex">
+       <button routerLink="/login" style="margin-left: 5px;" class="btn btn-danger" type="button" data-bs-toggle="modal">Log Out</button>
+     </div>
+    </div>
+ </nav> &nbsp;
+
+
+<nav class="navbar h4 pb-2 mb-4">
+  <div class="container-fluid">
+    <h3>Restaurent Name : {{this.RestaurentName}}</h3> 
+    <div class="d-flex">
+     <button (click)="clickAddDish()" class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#AddMenuForm">Add Dish</button>
+   </div>
+  </div>
+</nav>
+<hr class="border border-primary border-3 opacity-75">
+ 
+ <!-- Menu Table -->
+
+ <table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Restaurent ID</th>
+            <th scope="col">Restaurent DishName</th>
+            <th scope="col">Restaurent Price</th> 
+        </tr>
+    </thead>
+    <tbody>
+      
+        <tr *ngFor="let data of AllMenuList; let i = index">
+            <td>{{i+1}}</td>
+            <td>{{data.dishname}}</td>
+            <td>{{data.price}}</td>
+            <td>
+                <button (click)="Menu_Edit(data)" class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#AddMenuForm">Edit</button> &nbsp;
+                <button (click)="Delete_Menu(data.id)" class="btn btn-danger" >Delete</button>  &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+  <!-- Modal for Add Menu-->
+  <div class="modal fade" id="AddMenuForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Menu Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form [formGroup]="formValue2">
+                <div class="mb-3">
+                  <label class="form-label">Dish Name</label>
+                  <input type="text" class="form-control" formControlName="dishname" placeholder="Restaurent Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label  class="form-label">Price</label>
+                    <input type="number" class="form-control" formControlName="price"  placeholder="" id="exampleInputPassword1">
+                </div>
+
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="clear">Close</button>
+          <button *ngIf="Menu_showAdd" type="button" class="btn btn-primary" (click)="AddMenu()">Add Details</button>
+          <button *ngIf="Menu_showBtn" type="button" class="btn btn-primary" (click)="Update_Menu()">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
