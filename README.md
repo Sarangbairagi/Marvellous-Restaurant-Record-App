@@ -1,3 +1,13 @@
+
+# Marvellous-Restaurant-Record-App with JSON server or Dummy server
+The Marvellous Restaurant Record web app allows users to view specific restaurant names, contact numbers, and menus. Users can order dishes or items through this app, similar to services like Swiggy and Zomato. The app provides details for specific restaurants, enabling users to easily browse and order their desired dishes.
+
+
+
+
+
+***************************************************************************************************************************************************************************************************************
+
 <<<<<<< HEAD
 # Know
 
@@ -27,6 +37,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 =======
-# Marvellous-Restaurant-Record-App
-The Marvellous Restaurant Record web app allows users to view specific restaurant names, contact numbers, and menus. Users can order dishes or items through this app, similar to services like Swiggy and Zomato. The app provides details for specific restaurants, enabling users to easily browse and order their desired dishes.
->>>>>>> 2e4a0256f17e4e2cdf6e07d83527942d3bc585c6
