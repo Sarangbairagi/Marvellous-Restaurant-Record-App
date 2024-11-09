@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Know
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Marvellous-Restaurant-Record-App
+The Marvellous Restaurant Record web app allows users to view specific restaurant names, contact numbers, and menus. Users can order dishes or items through this app, similar to services like Swiggy and Zomato. The app provides details for specific restaurants, enabling users to easily browse and order their desired dishes.
+>>>>>>> 2e4a0256f17e4e2cdf6e07d83527942d3bc585c6
