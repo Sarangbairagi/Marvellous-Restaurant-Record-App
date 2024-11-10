@@ -70,11 +70,9 @@ The Marvellous Restaurant Record web app allows users to view specific restauran
 
          3. Start the JSON Server by executing the following command:
 
-   
              json-server --watch db.json
    
      Here, `db.json` is the file that contains your mock database data, and it allows the application to interact with the dummy server, simulating real data interactions.
-
 
 
 **Final Note: Monitor Your Command Prompt Windows **
