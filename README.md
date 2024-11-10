@@ -2,7 +2,14 @@
 # Marvellous-Restaurant-Record-App with JSON server or Dummy server
 The Marvellous Restaurant Record web app allows users to view specific restaurant names, contact numbers, and menus. Users can order dishes or items through this app, similar to services like Swiggy and Zomato. The app provides details for specific restaurants, enabling users to easily browse and order their desired dishes.
 
+**Guide to Running Your Machine Project:**
 
+**Step 1:** Before running the project, you need to install the prerequisites:
+
+- Node.js 
+- Angular CLI version 17
+
+**Step 2:** After installing the prerequisites on your machine, download the project from the GitHub repository. Once downloaded, extract the project files.
 
 
 
